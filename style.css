@@ -1,0 +1,128 @@
+body {
+    background-color: #ffffff;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 0;
+    background-image: url('https://img.freepik.com/free-vector/colourful-dynamic-flow-background_52683-42964.jpg?w=1060&t=st=1696053936~exp=1696054536~hmac=f3969149e40a785bafe38734debbd855a10cfad2d6b2eb149b1b80898ea511e6'); /* Ganti dengan gambar latar belakang yang sesuai */
+    background-size: cover;
+    color: #000000;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.products {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.products h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.product-card {
+    background-color: #14ede6;
+    border: 1px solid #14ede6;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 18px;
+    color: #000000;
+}
+
+.about {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
